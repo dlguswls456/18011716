@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: '나눔 고딕', 'NanumGothic','맑은고딕',Gothic;
+}
+a{
+  text-decoration: none;
+}
+body{
+  width: 960px;
+  margin: auto;
+  background: #E6E6E6;
+}
+#main-header
+{
+  padding: 40px,50px,40px,50px;
+}
+#main-nav{
+  border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
+  height: 30px;
+}
+.outer-menu-item{
+  float: left;
+}
+.menu-title{
+  display: inline-block;
+  height: 20px;
+  text-align: center;
+  padding: 5px, 20px,5px,20px;
+  color: black;
+}
+.menu-title:hover{
+  background: white;
+  border-radius: 5px;
+  color: white;
+}
+.menu-title:visited{
+  color: green;
+}
+#content{
+  overflow: hidden;
+}
+#main-section{
+  float: left;
+  width: 800px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #C8C8C8;
+}
+.article-location{
+  float: left;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+.red{
+    position: relative;
+}
+.tooltip .tooltiptext{
+    width: 100px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 5px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+a{
+  margin: 0,0,0,8px;
+  font-size: 13px;
+  color: #6C6C6C;
+}
+footer{
+  font-size: 10px;
+  color: #666666;
+}
